@@ -447,8 +447,8 @@ body{
     justify-self: center;
     align-self: center;
     margin-left: 60vw;
-    margin-bottom: 45vh;
-    position: fixed;
+    margin-top: -125vh;
+    /* position: fixed; */
     /* transform: translate(300%, 50%); */
   }
 
@@ -477,8 +477,9 @@ body{
     border-bottom: 18vw solid transparent;
     z-index:3;
     justify-self: end;
-    align-self: center;
-    position: fixed;
+    margin-top: -20vh;
+    /* align-self: center; */
+    /* position: fixed; */
     /* transform: translate(0, 20vh); */
   }
 
@@ -488,11 +489,12 @@ body{
     background: #24963f;
     z-index: 3;
     justify-self: end;
-    align-self: end;
-    margin-bottom: 15vh;
+    /* align-self: end; */
+    margin-top: -15vh;
+
     display: grid;
     grid-template-rows: minmax(0,12vw) 1fr;
-    position: fixed;
+    /* position: fixed; */
 
     /* transform: translate(0, -15vh); */
   }
@@ -533,12 +535,13 @@ body{
 
   #orangerectangle {
     position: fixed;
-    width: 18vw;
-    height: 15vw;
+    width: 23vw;
+    height: 18vw;
     background: #ff9e03;
     z-index: 2;
     align-self: end;
     justify-self: center;
+    margin-right: 40vw;
     /* transform: translate(-7%, 0); */
   }
 
@@ -563,12 +566,12 @@ body{
 
 
   #orangeline1 {
-    width: 25vw;
+    width: 20vw;
     height: 1vw;
     background: #ff9e03;
     transform: rotate(-40deg);
-    align-self: center;
-    justify-self: end;
+    justify-self: start;
+    margin-top: -20vh;
     z-index: 6;
   }
 
@@ -577,8 +580,8 @@ body{
     height: 1.1vw;
     background: #ff9e03;
     transform:rotate(-40deg) ;
-
-    align-self: center;
     justify-self: end;
+    margin-top: -56vh;
+    margin-right: 3vw;
   }
 }
