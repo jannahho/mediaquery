@@ -369,7 +369,8 @@ body{
   }
 
   .dropbtn {
-    grid-column: 1 / 1;
+    /* grid-column: 1 / 1; */
+    /* grid-row: 0/1; */
     background-color: transparent;
     color: #24963f;
     font-size: 80px;
@@ -381,6 +382,8 @@ body{
     z-index: 100;
     justify-self: start;
     align-self: start;
+    margin-left: -2vw;
+    margin-top: -5vw;
   }
 
   .dropdown {
@@ -405,6 +408,9 @@ body{
     display: block;
     text-decoration: none;
   }
+  .dropdown-content a:hover {color: #1a4d6b;}
+
+  .show {display:block;}
 
   #yellowcircle {
     width: 60vw;
@@ -415,8 +421,9 @@ body{
     align-self: center;
     justify-self: center;
     display: grid;
-    position: absolute;
-    transform: translate(0, 0);
+    margin-top: 20vh;
+
+    /* transform: translate(0, 0); */
   }
 
   #yellowcircle > p{
@@ -432,27 +439,29 @@ body{
 
 
   #bluecircle {
-    width: 19vw;
-    height: 19vw;
+    width: 21vw;
+    height: 21vw;
     background: #226dc9;
     border-radius: 50%;
     z-index: 2;
-    justify-self: start;
-    align-self: start;
-    position: absolute;
-    transform: translate(350%, 20%);
+    justify-self: center;
+    align-self: center;
+    margin-left: 60vw;
+    margin-bottom: 45vh;
+    position: fixed;
+    /* transform: translate(300%, 50%); */
   }
 
 
   #bluetriangle {
-    position: absolute;
     width: 0;
     height: 0;
     border-top: 9vw solid transparent;
     border-left: 11vw solid #226dc9;
     border-bottom: 9vw solid transparent;
     z-index: 5;
-    transform: translate(-5%, 105%);
+    /* transform: translate(-5%, 105%); */
+    margin-left: -2vw;
   }
 
   .bluetributton {
@@ -460,7 +469,6 @@ body{
   }
 
   #yellowtriangle {
-    position: absolute;
     width: 0;
     height: 0;
     border-top: 0vw solid transparent;
@@ -469,12 +477,7 @@ body{
     z-index:3;
     justify-self: end;
     align-self: center;
-    transform: translate(0, -30%);
-  }
-
-
-  #yellowtributton {
-    position: absolute;
+    /* transform: translate(0, 20vh); */
   }
 
   #greenrectangle {
@@ -484,10 +487,12 @@ body{
     z-index: 3;
     justify-self: end;
     align-self: end;
+    margin-bottom: 15vh;
     display: grid;
     grid-template-rows: minmax(0,12vw) 1fr;
     position: absolute;
-    transform: translate(0, -15vh);
+
+    /* transform: translate(0, -15vh); */
   }
 
 
@@ -525,30 +530,34 @@ body{
   }
 
   #orangerectangle {
-    position: absolute;
+    /* position: absolute; */
     width: 9.5vw;
     height: 6vw;
     background: #ff9e03;
     z-index: 2;
     align-self: end;
     justify-self: center;
-    transform: translate(-7%, 0);
+    /* transform: translate(-7%, 0); */
   }
 
-  #orangerecbutton{
+  /* #orangerecbutton{
     position: absolute;
-  }
+  } */
 
 
   #redrectangle {
-    width: 65vw;
+    width: 50vw;
     height: 40vw;
     background: #f03d11;
-    transform: rotate(-40deg) translate(115%, -80%);
+    transform: rotate(-40deg);
+    /* transform: translate(115%, -80%); */
     z-index: 0;
     align-self: center;
-    justify-self: center;
+    justify-self: end;
+    grid-row: 1;
     position: fixed;
+    margin-bottom: 40vh;
+    margin-right: -5vw;
   }
 
 
@@ -556,10 +565,10 @@ body{
     width: 14vw;
     height: .9vw;
     background: #ff9e03;
-    transform:  translate(0%, 280%) rotate(-40deg);
+    /* transform:  translate(0%, 280%) rotate(-40deg); */
     align-self: center;
     justify-content: end;
-    position: fixed;
+    /* position: fixed; */
     z-index: 6;
   }
 
@@ -567,7 +576,7 @@ body{
     width: 19vw;
     height: 1vw;
     background: #ff9e03;
-    transform:translate(260%, 800%) rotate(-40deg) ;
-    position: fixed;
+    /* transform:translate(260%, 800%) rotate(-40deg) ;
+    position: fixed; */
   }
 }
