@@ -355,7 +355,7 @@ body{
   cursor: var(--orangeline2-cursor);
 }
 
-@media only screen and (max-width: 469px) {
+@media only screen and (max-width: 992px) {
 
   .maincontainer{
     width: 100vw;
