@@ -8,6 +8,8 @@ body{
   /* background-color: #1a4d6b; */
 }
 
+@media only screen and (min-width: 992px) {
+
 .maincontainer{
   width: 100vw;
   height: 100vh;
@@ -354,6 +356,7 @@ body{
   background-color: var(--orangeline2-background-color);
   cursor: var(--orangeline2-cursor);
 }
+}
 
 @media only screen and (max-width: 992px) {
 
@@ -376,6 +379,8 @@ body{
     padding-bottom: 60px;
     padding-left: 20px;
     z-index: 100;
+    justify-self: start;
+    align-self: start;
   }
 
   .dropdown {
@@ -491,7 +496,7 @@ body{
     border: none;
     justify-self: start;
     color: #30c753;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     font-family: 'Kanit', sans-serif;
     margin-left: 3%;
     margin-top: 0em;
@@ -502,7 +507,7 @@ body{
     border: none;
     justify-self: start;
     color: #30c753;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     font-family: 'Kanit', sans-serif;
     margin-left: 3%;
     margin-bottom: 1%;
@@ -513,7 +518,7 @@ body{
     border: none;
     justify-self: start;
     color: #30c753;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     font-family: 'Kanit', sans-serif;
     margin-left: 3%;
     margin-top: .5%;
