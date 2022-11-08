@@ -456,16 +456,17 @@ body{
   #bluetriangle {
     width: 0;
     height: 0;
-    border-top: 9vw solid transparent;
-    border-left: 11vw solid #226dc9;
-    border-bottom: 9vw solid transparent;
+    border-top: 13vw solid transparent;
+    border-left: 16vw solid #226dc9;
+    border-bottom: 13vw solid transparent;
     z-index: 5;
     /* transform: translate(-5%, 105%); */
     margin-left: -2vw;
+
   }
 
   .bluetributton {
-    position: absolute;
+    /* position: absolute; */
   }
 
   #yellowtriangle {
@@ -477,6 +478,7 @@ body{
     z-index:3;
     justify-self: end;
     align-self: center;
+    position: fixed;
     /* transform: translate(0, 20vh); */
   }
 
@@ -490,7 +492,7 @@ body{
     margin-bottom: 15vh;
     display: grid;
     grid-template-rows: minmax(0,12vw) 1fr;
-    position: absolute;
+    position: fixed;
 
     /* transform: translate(0, -15vh); */
   }
@@ -530,9 +532,9 @@ body{
   }
 
   #orangerectangle {
-    /* position: absolute; */
-    width: 9.5vw;
-    height: 6vw;
+    position: fixed;
+    width: 18vw;
+    height: 15vw;
     background: #ff9e03;
     z-index: 2;
     align-self: end;
@@ -554,29 +556,29 @@ body{
     z-index: 0;
     align-self: center;
     justify-self: end;
-    grid-row: 1;
-    position: fixed;
-    margin-bottom: 40vh;
+    /* position: fixed; */
+    margin-top: -115vh;
     margin-right: -5vw;
   }
 
 
   #orangeline1 {
-    width: 14vw;
-    height: .9vw;
+    width: 25vw;
+    height: 1vw;
     background: #ff9e03;
-    /* transform:  translate(0%, 280%) rotate(-40deg); */
+    transform: rotate(-40deg);
     align-self: center;
-    justify-content: end;
-    /* position: fixed; */
+    justify-self: end;
     z-index: 6;
   }
 
   #orangeline2 {
-    width: 19vw;
-    height: 1vw;
+    width: 30vw;
+    height: 1.1vw;
     background: #ff9e03;
-    /* transform:translate(260%, 800%) rotate(-40deg) ;
-    position: fixed; */
+    transform:rotate(-40deg) ;
+
+    align-self: center;
+    justify-self: end;
   }
 }
