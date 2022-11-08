@@ -413,15 +413,15 @@ body{
   .show {display:block;}
 
   #yellowcircle {
-    width: 60vw;
-    height: 60vw;
+    width: 63vw;
+    height: 63vw;
     background: #ffff70;
     border-radius: 50%;
     z-index: 1;
     align-self: center;
     justify-self: center;
     display: grid;
-    margin-top: 20vh;
+    margin-top: 18vh;
 
     /* transform: translate(0, 0); */
   }
@@ -477,7 +477,9 @@ body{
     border-bottom: 18vw solid transparent;
     z-index:3;
     justify-self: end;
-    margin-top: -20vh;
+    margin-top: -65vh;
+    margin-right: -8vw;
+    transform: rotate(-40deg);
     /* align-self: center; */
     /* position: fixed; */
     /* transform: translate(0, 20vh); */
@@ -490,7 +492,7 @@ body{
     z-index: 3;
     justify-self: end;
     /* align-self: end; */
-    margin-top: -15vh;
+    margin-top: -14vh;
 
     display: grid;
     grid-template-rows: minmax(0,12vw) 1fr;
@@ -534,7 +536,7 @@ body{
   }
 
   #orangerectangle {
-    position: fixed;
+    /* position: fixed; */
     width: 23vw;
     height: 18vw;
     background: #ff9e03;
@@ -542,6 +544,7 @@ body{
     align-self: end;
     justify-self: center;
     margin-right: 40vw;
+    margin-bottom: -2.5vh;
     /* transform: translate(-7%, 0); */
   }
 
@@ -571,7 +574,7 @@ body{
     background: #ff9e03;
     transform: rotate(-40deg);
     justify-self: start;
-    margin-top: -20vh;
+    margin-top: -23vh;
     z-index: 6;
   }
 
@@ -581,7 +584,7 @@ body{
     background: #ff9e03;
     transform:rotate(-40deg) ;
     justify-self: end;
-    margin-top: -56vh;
+    margin-top: -62vh;
     margin-right: 3vw;
   }
 }
